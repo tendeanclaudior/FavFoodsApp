@@ -11,6 +11,13 @@
 		E30704742A2E3218005C2EC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30704732A2E3218005C2EC5 /* ContentView.swift */; };
 		E30704762A2E3219005C2EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30704752A2E3219005C2EC5 /* Assets.xcassets */; };
 		E30704792A2E3219005C2EC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30704782A2E3219005C2EC5 /* Preview Assets.xcassets */; };
+		E30704822A2E38E5005C2EC5 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30704812A2E38E5005C2EC5 /* GetStartedView.swift */; };
+		E30704862A2E42D3005C2EC5 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30704832A2E42D3005C2EC5 /* Poppins-Bold.ttf */; };
+		E30704872A2E42D3005C2EC5 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30704842A2E42D3005C2EC5 /* Poppins-Regular.ttf */; };
+		E30704882A2E42D3005C2EC5 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30704852A2E42D3005C2EC5 /* Poppins-SemiBold.ttf */; };
+		E36ECF6C2A45F3D200CD881C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ECF6B2A45F3D200CD881C /* DetailsView.swift */; };
+		E36ECF6E2A47069600CD881C /* SignInLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ECF6D2A47069600CD881C /* SignInLoginView.swift */; };
+		E38BD79B2A2EFF51002CB908 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38BD79A2A2EFF51002CB908 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,14 @@
 		E30704732A2E3218005C2EC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E30704752A2E3219005C2EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30704782A2E3219005C2EC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E30704812A2E38E5005C2EC5 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		E30704832A2E42D3005C2EC5 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		E30704842A2E42D3005C2EC5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E30704852A2E42D3005C2EC5 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E30704892A2E4314005C2EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E36ECF6B2A45F3D200CD881C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		E36ECF6D2A47069600CD881C /* SignInLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInLoginView.swift; sourceTree = "<group>"; };
+		E38BD79A2A2EFF51002CB908 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +66,16 @@
 		E30704702A2E3218005C2EC5 /* FavFoodsApp */ = {
 			isa = PBXGroup;
 			children = (
+				E30704892A2E4314005C2EC5 /* Info.plist */,
+				E30704832A2E42D3005C2EC5 /* Poppins-Bold.ttf */,
+				E30704842A2E42D3005C2EC5 /* Poppins-Regular.ttf */,
+				E30704852A2E42D3005C2EC5 /* Poppins-SemiBold.ttf */,
 				E30704712A2E3218005C2EC5 /* FavFoodsAppApp.swift */,
 				E30704732A2E3218005C2EC5 /* ContentView.swift */,
+				E30704812A2E38E5005C2EC5 /* GetStartedView.swift */,
+				E36ECF6D2A47069600CD881C /* SignInLoginView.swift */,
+				E38BD79A2A2EFF51002CB908 /* HomeView.swift */,
+				E36ECF6B2A45F3D200CD881C /* DetailsView.swift */,
 				E30704752A2E3219005C2EC5 /* Assets.xcassets */,
 				E30704772A2E3219005C2EC5 /* Preview Content */,
 			);
@@ -125,8 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30704882A2E42D3005C2EC5 /* Poppins-SemiBold.ttf in Resources */,
 				E30704792A2E3219005C2EC5 /* Preview Assets.xcassets in Resources */,
+				E30704862A2E42D3005C2EC5 /* Poppins-Bold.ttf in Resources */,
 				E30704762A2E3219005C2EC5 /* Assets.xcassets in Resources */,
+				E30704872A2E42D3005C2EC5 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36ECF6E2A47069600CD881C /* SignInLoginView.swift in Sources */,
+				E30704822A2E38E5005C2EC5 /* GetStartedView.swift in Sources */,
+				E36ECF6C2A45F3D200CD881C /* DetailsView.swift in Sources */,
+				E38BD79B2A2EFF51002CB908 /* HomeView.swift in Sources */,
 				E30704742A2E3218005C2EC5 /* ContentView.swift in Sources */,
 				E30704722A2E3218005C2EC5 /* FavFoodsAppApp.swift in Sources */,
 			);
@@ -270,6 +300,7 @@
 				DEVELOPMENT_TEAM = GCFY4YCA3Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavFoodsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +330,7 @@
 				DEVELOPMENT_TEAM = GCFY4YCA3Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavFoodsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
